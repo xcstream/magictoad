@@ -1,0 +1,2 @@
+# magictoad
+a simple blog
