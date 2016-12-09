@@ -3,7 +3,6 @@
  */
 var express = require('express');
 var serveStatic = require('serve-static')
-var fs= require('fs')
 var app = express();
 var rx = require('rx')
 var routes = require('./routes/index')
