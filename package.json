@@ -1,0 +1,27 @@
+{
+  "name": "magictoad",
+  "version": "1.0.0",
+  "description": "mo fa ha ma",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'ok'",
+    "start": "node --harmony-async-await app.js",
+    "serv": "pm2 start app.js --node-args --harmony-async-await -l /var/log/magictoad.log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcstream/magictoad.git"
+  },
+  "author": "xucheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xcstream/magictoad/issues"
+  },
+  "homepage": "https://github.com/xcstream/magictoad#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6",
+    "rx": "^4.1.0",
+    "socketio": "^1.0.0"
+  }
+}
